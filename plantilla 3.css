@@ -1,0 +1,190 @@
+#cv {
+    color: #515151;
+    position: relative;
+    width: 800px;
+    height: 1120px;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    border: 0.5px white solid;
+    overflow-y: hidden;
+    font-family: 'Be Vietnam Pro', sans-serif;
+ 
+  }
+  .conteiner {
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+  
+    display: grid;
+  
+    grid-template-columns: 40% 60%;
+  }
+
+    .section-data{
+      padding-left: 10%;
+    background-color: rgb(255, 255, 255);
+
+     
+    }
+    
+  
+
+  .cv-icon-white {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    filter: invert(100%);
+     width: 20px;
+     height: 20px;
+     margin-left: 2em;
+   
+
+   
+    
+   }
+   .logos{
+ margin-left: -1.5em;
+  }
+  .email,.domicilio,.phone,.website{
+    margin-left: 4.5em;
+    color: white;
+
+  }
+  .cv-editable {
+    margin-left: 1em;
+  }
+ 
+   .name{
+    color: white;
+    
+    font-weight: bold;
+    font-size: 2em;
+    position: relative;
+    bottom:  3em; 
+    text-align: center;
+     left: -1.0em;
+   }
+ .last-name{
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  position: relative;
+  bottom:  4em; 
+  text-align: center;
+right: 8%;
+ }
+   .section-user{
+  background-color: black;
+    padding: 10%;
+    height: 100%;
+    width: 80%;
+    
+    
+ 
+      }
+.picture-perfil{
+width: 113%;
+height: 80%;
+
+
+}
+.contact-me{
+ 
+ margin-left: 3.4em;
+ background-color: #515151;
+ color: white;
+ padding: 1%;
+ margin-top: -0em;
+
+}
+.me{
+ margin-bottom: -110px;
+}
+.language{
+  background-color: #515151;
+  color: white;
+  margin-left: 3em;
+  padding: 1%;
+ top: 10%;
+}
+.english,
+      .spanish,
+      .German
+      {
+       margin-left: 1.140em;
+                display: grid;
+  grid-template-columns: 50% 50%;
+ 
+  padding: .2em;
+  line-height: 1.600rem;
+  margin-top: -5px;
+ margin-bottom: 0px;
+ word-spacing: 5pt;
+ white-space: pre-wrap;
+ color: white;
+ text-align: left;
+
+ padding-left: 12%;
+      }
+      .advance,
+      .bagginer,
+      .native {
+               text-align: left;
+                display: grid;
+  grid-template-columns: 50% 50%;
+ margin: 10px;
+  padding: .2em;
+  line-height: 1.600rem;
+  margin-top: -3px;
+ margin-bottom: 10px;
+ word-spacing: 5pt;
+ white-space: pre-wrap;
+ color: white;
+ font-weight: bolder;
+
+font-size: 15px;
+font-weight: 900;
+      }
+      .mod{
+        font-size: 5em;
+        color: black;
+        
+        
+        
+    }
+    .text-one,.text-two,.text-tree,.text-four,.text-five{
+     font-size: 0.8em;
+ 
+    
+    }
+    .javascript,.php,.css,.af,.pre,.phot,.Adobe-Phot{
+    color: black;
+    font-weight: 800;
+     margin-left: 2em;
+    margin-left: -1em;
+    padding: 1%;
+    }    
+  
+
+  .skills{
+    
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  }
+  .ski,.expe,.edu{
+    border-bottom: 3px solid black;
+    color:black;
+    padding-left: 0%;
+    font-size: 1.1em;
+  }
+  .now-one,.noe-two,.now-tree{
+    font-weight: 700;
+    color: black;
+  font-size: 14px;
+  }
+  .photo-club,.free,.academy{
+    font-size: 17px;
+  }
+  
